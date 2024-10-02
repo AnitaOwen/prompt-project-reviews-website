@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Importing Roboto font */
+
+.reviews-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  padding: 20px;
+  margin: 0 40px; /* Equal margins on the left and right of the container */
+
+}
+
+.review-card {
+  background-color: #e0f7fa; /* Light blue background for each review */
+  border: 1px solid #0465d4; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  margin: 10px 0; /* Space between cards */
+  padding: 15px; /* Inner padding */
+  width: 100%; /* Full width for each card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s; /* Smooth hover effect */
+  font-family: 'Roboto', sans-serif; /* Apply the imported font */
+}
+
+.review-card:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.review-title {
+  margin: 0 0 10px; /* Margin for title */
+  font-weight: 700; /* Bold title */
+}
+
+.review-date {
+  color: #555; /* Darker gray color for date */
+  font-size: 0.9em; /* Smaller font size */
+}
+
+.review-summary {
+  margin: 10px 0 0; /* Margin for summary */
+}
+.reviewer-name {
+    font-style: italic; /* Italic style for the reviewer's name */
+    color: #aaa; /* Lighter gray color */
+    margin-top: 5px; /* Space above the name */
+  }

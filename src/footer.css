@@ -1,0 +1,24 @@
+/* src/Components/Footer.css */
+.footer {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding around the footer */
+    position: relative; /* Position relative for layout */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+    font-family: 'Roboto', sans-serif; /* Consistent font family */
+  }
+  
+  .contact-info {
+    margin-bottom: 10px; /* Space below contact info */
+  }
+  
+  .contact-info h4 {
+    margin: 0; /* Remove default margin */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .copyright {
+    font-size: 0.9em; /* Smaller font size for copyright */
+  }

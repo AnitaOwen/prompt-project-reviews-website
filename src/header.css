@@ -1,0 +1,38 @@
+/* src/header.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Importing Roboto font */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    font-family: 'Roboto', sans-serif; /* Apply the imported font */
+}
+
+.title {
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Distinct font for the title */
+    font-weight: 700; /* Bold title */
+}
+
+.nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav li {
+    margin-left: 20px; /* Space between navigation items */
+}
+
+.nav a {
+    color: yellow; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
